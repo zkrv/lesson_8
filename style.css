@@ -1,0 +1,38 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.modal {
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    background: white;
+    border-radius: 30px;
+}
+
+.modal-content {
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+#gameOver{
+    color: red;
+    font-size: 30px;
+}
+#gameScore{
+    color: blue;
+    font-size: 30px;
+}
+#restartBtn{
+    color: green;
+    font-size: 30px;
+    background-color: yellow;
+}
